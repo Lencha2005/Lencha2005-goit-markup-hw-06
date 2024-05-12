@@ -587,3 +587,30 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       width: calc((100% - 72px) / 4);
   }
 }
+
+/*================ PORTFOLIO ================*/
+
+.portfolio-overley {
+    display: none;
+}
+.portfolio {
+    padding: 96px 0;
+}
+.portfolio-title {
+        font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            min-width: 218px;
+            margin-bottom: 72px;
+            margin-right: auto;
+            margin-left: auto;
+            color: #2e2f42;
+}
+
+.portfolio-list {
+    display: flex;
+        flex-direction: column;
+     row-gap: 48px;
+}
